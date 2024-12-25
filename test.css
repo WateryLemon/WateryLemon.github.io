@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    transition: background 0.3s ease;
+}
+
+.content {
+    padding: 20px;
+    height: 3000px; /* To make sure the page is scrollable */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}

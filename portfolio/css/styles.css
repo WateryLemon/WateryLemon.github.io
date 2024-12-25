@@ -1,0 +1,57 @@
+
+.intro_wrap {
+    display: flex;                
+    align-items: center;          
+    justify-content: center;      
+    margin: 20px auto;            
+    gap: 100px;                    
+}
+
+.intro_icon {
+  width: 100px;                 
+  height: 100px;                
+  border-radius: 50%;           
+  object-fit: cover;            
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social_button {
+  display: inline-flex;           /* Align text and icon horizontally */
+  align-items: center;            /* Vertically align icon and text */
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  gap: 10px;                      /* Add space between icon and text */
+}
+
+.social_button a {
+  display: inline-flex;           /* Ensure icon and text align */
+  align-items: center;
+  text-decoration: none;
+  color: inherit;                 /* Inherit color from button */
+}
+
+.social_button i {
+  font-size: 1.2rem;              /* Adjust icon size */
+}
+
+#github_button {
+  background-color: #333;         /* GitHub button background */
+  color: white;                   /* Text and icon color */
+}
+
+#github_button:hover {
+  background-color: #555;         /* Lighter shade on hover */
+}
+
+#linkedin_button {
+  background-color: #0077b5;      /* LinkedIn blue */
+  color: white;
+}
+
+#linkedin_button:hover {
+  background-color: #005582;      /* Darker LinkedIn blue on hover */
+}
